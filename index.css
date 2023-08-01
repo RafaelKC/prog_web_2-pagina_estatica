@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+  
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+main {
+    height: 100%;
+}
+
+header {
+    padding: 16px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 3rem;
+    height: 90px;
+    background-color: chocolate;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 0.6rem;
+    margin: 0;
+} 
+
+.navigation h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.navigation h5:hover {
+    color: chocolate;
+    background-color: white;
+    
+}
+
+header h1 {
+    height: auto;
+    width: auto;
+}
+
+footer {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: chocolate;
+}
+
+h2 {
+    padding: 1rem;
+}
+
+.posts {
+    padding: 1rem;
+    display: grid;
+    justify-items: stretch;
+    align-items: start;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+}
+
+.posts img {
+    height: 200px;
+}
+
+.post {
+    display: flex;
+    gap: 2rem;
+    background-color: rgb(247, 158, 95);
+}
+
+.post_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.postContent {
+    height: 100%;
+    width: 100%;
+    padding: 0.5rem;
+}
