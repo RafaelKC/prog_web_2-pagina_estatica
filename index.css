@@ -20,13 +20,14 @@ main {
 }
 
 header {
-    padding: 16px;
+    padding-left: 16px;
     display: flex;
     justify-content: start;
     align-items: center;
     gap: 3rem;
-    height: 90px;
-    background-color: chocolate;
+    height: 50px;
+    background-color: #212529;
+    color: #e9ecef;
 }
 
 .navigation {
@@ -45,8 +46,8 @@ header {
 }
 
 .navigation h5:hover {
-    color: chocolate;
-    background-color: white;
+    color: #212529;
+    background-color: #e9ecef;
     
 }
 
@@ -56,15 +57,21 @@ header h1 {
 }
 
 footer {
-    padding: 1rem;
+    padding: 0.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: chocolate;
+    background-color: #212529;
+    gap: 16px;
+    color: #e9ecef;
 }
 
 h2 {
     padding: 1rem;
+}
+
+main {
+    background-color: #f8f9fa;
 }
 
 .posts {
@@ -80,10 +87,16 @@ h2 {
     height: 200px;
 }
 
+.post:hover {
+    background-color: #3e444b;
+}
+
 .post {
     display: flex;
     gap: 2rem;
-    background-color: rgb(247, 158, 95);
+    background-color: #495057;
+    color: #f8f9fa;
+    cursor: pointer;
 }
 
 .post_info {
@@ -97,4 +110,8 @@ h2 {
     height: 100%;
     width: 100%;
     padding: 0.5rem;
+}
+
+.footerimg {
+    width: 30px;
 }
